@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    line-height: 60px;
+}
+#mensaje {
+    color: red;
+    font-weight: bold;
+}
+#paises {
+    font-size: 24px;
+    padding: 5px;
+    margin: 25px 0;
+    border-radius: 3%;
+    border: 1px solid #cdcdcd;
+}
+#error {
+    color: red;
+    font-weight: bold;
+}
