@@ -1,0 +1,35 @@
+.rosado {
+    background-color: pink;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1em;
+}
+.rosado .menu {height: 40px;}
+
+.verde {
+    background-color: green;
+    height: 100px;
+}
+
+.azul {
+    background-color: blue;
+    height: 100px;
+}
+
+.gris {
+    background-color: gray;
+    height: 100px;
+}
+
+.rojo {
+    background-color: red;
+    height: 100px;
+}
+
+.morado {
+    background-color: purple;
+    height: 100px;
+}
