@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SUMAR DOS NUMEROS</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <div>
+      <h1>SUMA</h1>
+      <input type="text" id="numero1" />
+      <input type="text" id="numero2" />
+      <input type="button" value="SUMAR" />
+      <h1>RESULTADO</h1>
+      <h1>0</h1>
+    </div>
+    <script>
+      function sumar(numero1, numero2) {
+        return numero1 + numero2;
+      }
+      function leerNumeros() {
+        var valorNum1 = parseFloat(document.getElementById("numero1").value);
+        var valorNum2 = parseFloat(document.getElementById("numero2").value);
+
+        var resultado = sumar(valorNum1, valorNum2);
+
+        console.log(resultado);
+
+        document.getElementById("resultado_h1").innerText = resultado;
+        document.getElementById("resultado_input").value = resultado;
+      }
+    </script>
+  </body>
+</html>
